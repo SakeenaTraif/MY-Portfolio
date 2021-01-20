@@ -19,3 +19,12 @@ h4,h3 {color: navy; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Gr
     transform: translate(-50%, -50%);}
 
 .link{text-align: right; padding: 30px 50px 20px}
+
+.collapsible {
+    cursor: pointer;
+  }
+  
+  .content {
+    display: none;
+    overflow: hidden;
+  }

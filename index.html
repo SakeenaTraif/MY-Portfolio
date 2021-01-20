@@ -37,6 +37,16 @@
         I enjoy photography,art,traviling,hiking & good food.</p>
     <br>
 
+    <h4 class="collapsible">+ Education History and TimeLine</h4>
+    <div class="content">
+    <p> 2020- Graduated from Ahlia University,MIS degree.</p>
+    <p> 2020- Enrolled in Data Science,Bahrain Polytechnic/AI Academy.</p>
+    <p> 2021- Enrolled in CODED BootCamp, CODED Academy.</p>
+    <p> Seeking for a challenging position with a creative work environment to enhance expertise in web development and web design that allows for implementation of communication, service, and design skills to the programming essentials.</p>
+    <strong>As I progress, I will add more details.</strong>
+  </div>
+
+     <br><br>
     <h4>Passion & Interests: </h4>
      <ul>
         <li>Clinical research</li>
@@ -47,6 +57,23 @@
     </ul>
 
   </div>
+
+  <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
     <footer class="footer">  &copy Sakeena Traif 2021</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
   </body>
